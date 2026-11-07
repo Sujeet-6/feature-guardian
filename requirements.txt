@@ -1,0 +1,4 @@
+hindsight-client
+google-genai
+pytest
+python-dotenv
