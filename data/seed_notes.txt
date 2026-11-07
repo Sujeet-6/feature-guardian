@@ -1,1 +1,15 @@
 # about 15 history notes, one per line
+Add task is a protected feature of the Acme to-do app. Its test checks that add_task returns the updated task list.
+A refactor of add_task that stopped returning the task list was rejected because it broke add task.
+A change that renamed the tasks list to items was rejected because three protected features stopped working.
+A change that added due dates to tasks was accepted because add task kept working and the new tests passed.
+A change that saved tasks to a file was rejected because the add task test failed when the file did not exist.
+A change that added priority labels was accepted after every protected feature passed.
+The Acme team requires input validation on task text and wants empty strings rejected.
+The Acme team wants every new feature to ship with its own test before a change is accepted.
+Reviewers on the Acme team dislike functions that return None when callers expect the updated task list.
+The Acme team does not care about line length, so comments about line length are ignored.
+The Acme team prefers small functions that do one job.
+The Acme team wants error messages that say which task index was invalid.
+Past bugs in mark_done and delete_task usually came from index errors on an empty task list.
+Developers on the Acme team often forget to return the updated list from functions that change tasks.

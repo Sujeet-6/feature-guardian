@@ -1,1 +1,6 @@
-[{"name": "add task", "test": "test_feature1.py"}]
+[
+  {
+    "name": "add task",
+    "test": "test_feature1.py"
+  }
+]
