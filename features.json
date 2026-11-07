@@ -2,5 +2,13 @@
   {
     "name": "add task",
     "test": "test_feature1.py"
+  },
+  {
+    "name": "delete task",
+    "test": "test_delete_task.py"
+  },
+  {
+    "name": "mark done",
+    "test": "test_mark_done.py"
   }
 ]
